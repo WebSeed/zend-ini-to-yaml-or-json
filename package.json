@@ -1,0 +1,30 @@
+{
+  "name": "zend-ini-to-yaml-or-json",
+  "version": "1.0.0",
+  "description": "Convert INI files to YAML or JSON",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jasmine-node ./spec/convert-spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebSeed/convert-ini-to-yaml-or-json.git"
+  },
+  "author": "Will Bamford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebSeed/zend-ini-to-yaml-or-json/issues"
+  },
+  "homepage": "https://github.com/WebSeed/zend-ini-to-yaml-or-json#readme",
+  "keywords": [
+    "ini",
+    "yaml",
+    "json",
+    "zend"
+  ],
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "properties": "git+https://github.com/WebSeed/node-properties.git",
+    "yamljs": "^0.2.4"
+  }
+}
