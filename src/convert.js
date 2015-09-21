@@ -14,10 +14,6 @@ var toObject = function(ini) {
       namespaces: true,
       reviver: function(key, value, section) {
 
-        // if (key == 'show-desktop-link') {
-          // console.log('Processing "' + key + '": "' + value + '"');
-        // }
-
         if (typeof value === 'string')
           return stripQuoteWrap(value.trim());
 
